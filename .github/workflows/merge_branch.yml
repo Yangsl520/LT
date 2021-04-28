@@ -2,7 +2,7 @@
 name: merge-from-master
 on:
   schedule:
-    - cron: '1 0-15/3 * * *'
+    - cron: '1 8,12,16,23 * * *'
   workflow_dispatch:
   watch:
     types: started
